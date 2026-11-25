@@ -5,3 +5,8 @@ episodes/*/mix.wav
 episodes/*/final.mp4
 episodes/*/render.log
 __pycache__/
+
+# preview scratch (RUNBOOK step 3)
+episodes/*/preview*/
+episodes/*/preview*.log
+episodes/*/preview_frames.txt
