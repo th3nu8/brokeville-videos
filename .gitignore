@@ -1,0 +1,7 @@
+episodes/*/render/
+episodes/*/logs/
+episodes/*/voice/*.wav
+episodes/*/mix.wav
+episodes/*/final.mp4
+episodes/*/render.log
+__pycache__/

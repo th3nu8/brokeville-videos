@@ -1,0 +1,6 @@
+# Brokeville episode log
+
+| # | Date | Title | Premise | Cliffhanger | Part 2 of | Video | Metricool post |
+|---|------|-------|---------|-------------|-----------|-------|----------------|
+| 001 | 2026-11-24 | Everyone in my Roblox town gets admin commands... I got /jump | Rich kids get /fly, /speed, /giant, /money. Broke kid gets /jump, climbs the 1000-stage Tower of Doom as his jump keeps getting stronger, finds an OWNER ONLY room with his username on a computer and "you found the developer command". | The whole server froze and everyone else disappeared ("Server Frozen... Rejoin?") | — | videos/001-worst-admin-command.mp4 (first, simpler render) | 440856051 |
+| 001b | 2026-11-24 | Everyone in my Roblox town gets admin commands... but I only got /jump | Remake of 001 in the current cinematic style with the higher-pitched voice | same as 001 (not yet continued) | — | videos/001b-worst-admin-command-remake.mp4 | 441070574 |

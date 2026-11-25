@@ -1,0 +1,147 @@
+{
+ "title": "Everyone in my Roblox town gets admin commands... I got /jump",
+ "lines": [
+  {
+   "id": 1,
+   "shot": "town",
+   "text": "In my Roblox town, every kid gets admin commands on their tenth birthday."
+  },
+  {
+   "id": 2,
+   "shot": "town",
+   "text": "Rich kids get the good ones. Slash fly. Slash speed. Slash giant."
+  },
+  {
+   "id": 3,
+   "shot": "town",
+   "text": "One kid got slash money, and his dad bought him the entire map."
+  },
+  {
+   "id": 4,
+   "shot": "spawn",
+   "text": "But my family was so poor, we couldn't even afford a house. We lived on the starter spawn."
+  },
+  {
+   "id": 5,
+   "shot": "spawn",
+   "text": "Every new player who joined the server spawned right on top of my bed."
+  },
+  {
+   "id": 6,
+   "shot": "shop",
+   "text": "So on my birthday, the command shop gave me the cheapest one they had."
+  },
+  {
+   "id": 7,
+   "shot": "shop",
+   "text": "Slash jump.",
+   "pre": 0.4
+  },
+  {
+   "id": 8,
+   "shot": "laugh",
+   "text": "Everyone laughed. Someone spammed L in the chat so hard, the whole server lagged."
+  },
+  {
+   "id": 9,
+   "shot": "school",
+   "text": "At school, the rich kids flew over the lunch line. I used my command. I jumped exactly one stud."
+  },
+  {
+   "id": 10,
+   "shot": "school",
+   "text": "The lunch lady gave me half a slice of pizza. It was a decal."
+  },
+  {
+   "id": 11,
+   "shot": "mine",
+   "text": "My dad told me, son, it's not the command. It's how you use it."
+  },
+  {
+   "id": 12,
+   "shot": "mine",
+   "text": "Then he went back to work at the Robux mine, where he earned one Robux a day."
+  },
+  {
+   "id": 13,
+   "shot": "mayor",
+   "text": "Then the mayor announced the Tower of Doom. A thousand stages. Nobody had ever beaten it."
+  },
+  {
+   "id": 14,
+   "shot": "mayor",
+   "text": "The prize? One million Robux.",
+   "pre": 0.3
+  },
+  {
+   "id": 15,
+   "shot": "line",
+   "text": "Every rich kid in town lined up. Fly. Speed. Giant. And me, with slash jump."
+  },
+  {
+   "id": 16,
+   "shot": "fails",
+   "text": "On stage one, the flyers hit the anti fly lasers. Bonk.",
+   "pre": 0.2
+  },
+  {
+   "id": 17,
+   "shot": "fails",
+   "text": "The speed kids ran straight into the lava. And the giant kid got stuck in the very first door."
+  },
+  {
+   "id": 18,
+   "shot": "climb",
+   "text": "But me? I just jumped. Stage after stage after stage."
+  },
+  {
+   "id": 19,
+   "shot": "climb",
+   "text": "And every time I used it, my jump got a little bit stronger."
+  },
+  {
+   "id": 20,
+   "shot": "climb",
+   "text": "Ten studs. Fifty studs. A hundred studs."
+  },
+  {
+   "id": 21,
+   "shot": "clouds",
+   "text": "By stage nine hundred ninety nine, I was jumping over clouds.",
+   "pre": 0.2
+  },
+  {
+   "id": 22,
+   "shot": "clouds",
+   "text": "A plane flew past me. The pilot just typed, what."
+  },
+  {
+   "id": 23,
+   "shot": "top",
+   "text": "I made it to the top. Nobody was there. Just one door, and it said, owner only."
+  },
+  {
+   "id": 24,
+   "shot": "room",
+   "text": "Inside was a computer. And on the screen was my username.",
+   "pre": 0.3
+  },
+  {
+   "id": 25,
+   "shot": "room",
+   "text": "Under it, a message. Congrats. You found the developer command."
+  },
+  {
+   "id": 26,
+   "shot": "freeze",
+   "text": "Then the whole server froze. And everyone else in my town... disappeared.",
+   "pre": 0.3
+  },
+  {
+   "id": 27,
+   "shot": "freeze",
+   "text": "Part two if this gets a thousand likes.",
+   "pre": 0.5
+  }
+ ]
+}
