@@ -1,4 +1,4 @@
-# Facts used (E002 nuclear power plant, block style)
+# Facts used (E003 nuclear power plant, block style)
 - One uranium fuel pellet creates as much energy as one ton of coal. https://www.nei.org/fundamentals/nuclear-fuel
 - A pellet is about the size of a thumbnail; pellets are stacked into fuel rods, bundled into assemblies in the core. https://energy.utah.gov/wp-content/uploads/20260515_Nuclear-Fuel_OED-Fact-Sheet.pdf
 - Fission releases heat and more neutrons that split other U-235 atoms (chain reaction). https://www.mining.com/web/the-power-of-a-uranium-pellet/

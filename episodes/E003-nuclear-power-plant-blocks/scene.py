@@ -1,4 +1,4 @@
-"""Explainer E002 — How a nuclear power plant works, built from blocks (original voxel style, no game assets)."""
+"""Explainer E003 — How a nuclear power plant works, built from blocks (original voxel style, no game assets)."""
 import os, sys, json
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "pipeline"))
 from lib import *
