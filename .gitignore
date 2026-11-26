@@ -10,3 +10,5 @@ __pycache__/
 episodes/*/preview*/
 episodes/*/preview*.log
 episodes/*/preview_frames.txt
+episodes/*/labels/
+episodes/*/preview/

@@ -1,0 +1,78 @@
+{
+ "title": "How a nuclear bunker is built",
+ "lines": [
+  {
+   "id": 1,
+   "shot": "hook",
+   "text": "This is how you build a bunker that can survive a nuclear war."
+  },
+  {
+   "id": 2,
+   "shot": "dig",
+   "text": "First, you dig. Every layer of dirt cuts incoming radiation in half.",
+   "pre": 0.2
+  },
+  {
+   "id": 3,
+   "shot": "dig",
+   "text": "Stack ten of those halvings, and only about one thousandth gets through."
+  },
+  {
+   "id": 4,
+   "shot": "rebar",
+   "text": "Next comes a cage of steel rebar.",
+   "pre": 0.2
+  },
+  {
+   "id": 5,
+   "shot": "pour",
+   "text": "Then concrete is poured around it. Commercial bunkers often use walls about fifty centimeters thick."
+  },
+  {
+   "id": 6,
+   "shot": "door",
+   "text": "The entrance gets a blast door, set deep into its frame so a shock wave can't pry the edge open.",
+   "pre": 0.2
+  },
+  {
+   "id": 7,
+   "shot": "hatch",
+   "text": "And there's always a second way out. An emergency escape hatch."
+  },
+  {
+   "id": 8,
+   "shot": "air",
+   "text": "Air is the hard part. Outside air is pulled through a pre filter, a HEPA filter, and activated carbon.",
+   "pre": 0.2
+  },
+  {
+   "id": 9,
+   "shot": "pressure",
+   "text": "The shelter keeps its air pressure higher than outside, so dust gets pushed out, not sucked in."
+  },
+  {
+   "id": 10,
+   "shot": "inside",
+   "text": "Inside, you need bunks, water, food, power, and a radio.",
+   "pre": 0.2
+  },
+  {
+   "id": 11,
+   "shot": "bury",
+   "text": "Finally, the whole thing is buried under tons of earth."
+  },
+  {
+   "id": 12,
+   "shot": "wait",
+   "text": "Then you wait. Fallout loses most of its strength over the first few weeks.",
+   "pre": 0.3
+  },
+  {
+   "id": 13,
+   "shot": "wait",
+   "text": "Would you last a month down here?",
+   "pre": 0.3
+  }
+ ],
+ "tail": 0.6
+}

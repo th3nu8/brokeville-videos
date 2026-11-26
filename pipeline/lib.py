@@ -55,6 +55,7 @@ def _mk(name, fn, smooth=False):
     return me
 M_CYL = _mk("cyl", lambda bm: bmesh.ops.create_cone(bm, cap_ends=True, segments=32, radius1=0.5, radius2=0.5, depth=1.0), smooth=True)
 for p in M_CYL.polygons: p.use_smooth = abs(p.normal.z) < 0.5
+M_CONE = _mk("cone", lambda bm: bmesh.ops.create_cone(bm, cap_ends=True, segments=32, radius1=0.5, radius2=0.0, depth=1.0), smooth=True)
 M_SPH = _mk("sph", lambda bm: bmesh.ops.create_uvsphere(bm, u_segments=24, v_segments=14, radius=0.5), smooth=True)
 def _wedge():
     me = bpy.data.meshes.new("wedge")
@@ -155,6 +156,7 @@ def obj(mesh, loc=(0, 0, 0), size=(1, 1, 1), color="cccccc", parent=None, rot=(0
 def box(loc, size, color, parent=None, rot=(0, 0, 0), r=None, **k):
     return obj(rbox_mesh(*size, r=r), loc, (1, 1, 1), color, parent, rot, "b", **k)
 def cyl(loc, size, color, parent=None, rot=(0, 0, 0), **k): return obj(M_CYL, loc, size, color, parent, rot, "c", **k)
+def cone(loc, size, color, parent=None, rot=(0, 0, 0), **k): return obj(M_CONE, loc, size, color, parent, rot, "k", **k)
 def sph(loc, size, color, parent=None, rot=(0, 0, 0), **k): return obj(M_SPH, loc, size, color, parent, rot, "s", **k)
 def wedge(loc, size, color, parent=None, rot=(0, 0, 0), **k): return obj(M_WEDGE, loc, size, color, parent, rot, "w", **k)
 def empty(loc=(0, 0, 0), parent=None, rot=(0, 0, 0), name="e"):
@@ -453,7 +455,7 @@ _SHOTCFG = {"light": {}, "fstop": {}}
 def setup_shots(light, fstop):
     _SHOTCFG["light"] = light; _SHOTCFG["fstop"] = fstop
 
-def run(update, vis_extra):
+def run(update, vis_extra, after_frame=None):
     import time
     os.makedirs(OUTDIR, exist_ok=True)
     n = int(math.ceil(END * FPS))
@@ -479,5 +481,6 @@ def run(update, vis_extra):
         scn.render.filepath = out
         t0 = time.time()
         bpy.ops.render.render(write_still=True)
+        if after_frame: after_frame(f, t)
         print(f"FRAME {f} t={t:.2f} {shot} {time.time() - t0:.2f}s", flush=True)
     print("DONE", n)

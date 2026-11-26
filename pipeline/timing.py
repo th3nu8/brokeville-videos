@@ -14,7 +14,11 @@ def W(line, prefix, nth=0):
     raise KeyError((line, prefix))
 def S(line):
     return LN[line]["start"]
-END = TL["duration"] + 1.6
+try:
+    _TAIL = float(json.load(open(os.path.join(EP, "script.json"))).get("tail", 1.6))
+except Exception:
+    _TAIL = 1.6
+END = TL["duration"] + _TAIL
 SHOTS = [(TL["lines"][0]["shot"], 0.0)]
 _prev = SHOTS[0][0]
 for _l in TL["lines"]:

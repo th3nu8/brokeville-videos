@@ -80,8 +80,10 @@ class UI:
     font = staticmethod(font)
     @staticmethod
     def center_text(img, txt, y, sz, fill, scale=1.0, stroke=12):
-        f = font(int(sz * scale)); d = ImageDraw.Draw(img)
-        w = f.getlength(txt); draw_text(d, ((W_ - w) / 2, y), txt, f, fill, stroke)
+        sz = int(sz * scale); f = font(sz); w = f.getlength(txt)
+        while w > W_ * 0.9 and sz > 30:
+            sz -= 4; f = font(sz); w = f.getlength(txt)
+        d = ImageDraw.Draw(img); draw_text(d, ((W_ - w) / 2, y), txt, f, fill, stroke)
     @staticmethod
     def pill(img, xy, txt, sz, fg, bg, pad=18):
         d = ImageDraw.Draw(img); f = font(sz, "ExtraBold")
