@@ -1,0 +1,15 @@
+{"title": "How a nuclear power plant works (built from blocks)", "tail": 0.8,
+ "lines": [
+  {"id": 1, "shot": "hook", "text": "This is how a nuclear power plant works, built out of blocks."},
+  {"id": 2, "shot": "pellet", "text": "It all starts with a uranium pellet about the size of your thumbnail.", "pre": 0.3},
+  {"id": 3, "shot": "pellet", "text": "That one tiny pellet holds as much energy as a ton of coal."},
+  {"id": 4, "shot": "core", "text": "Pellets are stacked into fuel rods, and the rods are packed into the reactor core.", "pre": 0.3},
+  {"id": 5, "shot": "fission", "text": "When a uranium atom splits, it gives off heat and more neutrons, which split even more atoms."},
+  {"id": 6, "shot": "rods", "text": "Control rods slide in to soak up those neutrons and keep the reaction steady."},
+  {"id": 7, "shot": "loop", "text": "The heat goes into water that's kept under pressure, so it can't boil.", "pre": 0.3},
+  {"id": 8, "shot": "steam", "text": "That hot water boils a second loop of water into steam."},
+  {"id": 9, "shot": "turbine", "text": "The steam blasts through a turbine and spins it, and the turbine turns a generator that makes electricity.", "pre": 0.3},
+  {"id": 10, "shot": "condenser", "text": "Then the steam is cooled back into water and pumped around again."},
+  {"id": 11, "shot": "tower", "text": "And those giant towers? That's just water vapor. Not smoke.", "pre": 0.3},
+  {"id": 12, "shot": "tower", "text": "Would you live next to one?", "pre": 0.3}
+ ]}

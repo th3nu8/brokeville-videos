@@ -8,7 +8,8 @@ Follow this top to bottom to make **one new explainer Short** and schedule it on
 
 - **Channel:** connected through Metricool (brand/blogId **8340054**, timezone America/Chicago). Brokeville now posts explainers only.
 - **What:** 45–60 s 3D **cutaway explainers**: "How a nuclear bunker is built", "What's inside a submarine", "How a skyscraper survives an earthquake", "How a tunnel is dug under the ocean", "What's inside a volcano", "How a dam holds back a lake", "How an elevator stops from falling", "How a space toilet works", "What's under a city street", "How a cruise ship floats", and so on.
-- **Style:** see `episodes/E001-nuclear-bunker/` (script, scene, fx). The look is a diorama cutaway (a slice of the world, with the cut face toward the camera). The thing gets built or revealed step by step, in sync with the words. Labels with leader lines track objects. There's a 2-line title for the first 4 s, word-by-word captions, a calm adult narrator and soft music.
+- **Style:** see `episodes/E001-nuclear-bunker/` (smooth diorama) and `episodes/E002-nuclear-power-plant-blocks/` (blocky voxel world: `vox()` merged block meshes + `block_mat()` edge/pixel shading; original look, never Minecraft textures, characters, logo or name in the video). The look is a diorama cutaway (a slice of the world, with the cut face toward the camera). The thing gets built or revealed step by step, in sync with the words. Labels with leader lines track objects. There's a 2-line title for the first 4 s, word-by-word captions, a calm adult narrator and soft music.
+- **Voice:** `af_heart` at speed 1.0, pitch 1.0 (most natural free voice; whole passages read together). Keep the same voice on every video.
 - **Audience:** NOT made for kids. Everything is family-friendly. **Never** make how-to content for weapons, explosives, drugs, hacking or anything dangerous. Explain how things are built and how they work, not how to cause harm. No graphic medical gore.
 - **Accuracy:** every fact said or shown must come from what you looked up today (step 2). Prefer round, hedged numbers ("about", "often") over precise ones you can't back up.
 
@@ -39,7 +40,7 @@ Run at least 3 web searches, plus fetches where needed, from reputable sources: 
 
 ```bash
 export EP=~/bv/episodes/E<NNN>-slug
-python3 ~/bv/pipeline/voice.py am_michael 1.08 1.0
+python3 ~/bv/pipeline/voice.py af_heart 1.0 1.0   # natural mode: passages read together, room polish
 ```
 
 The total must be **42–59 s**. If it's over, cut words. If it's under, add a fact line.
