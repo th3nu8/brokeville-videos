@@ -1,0 +1,16 @@
+{"title": "How an elevator stops itself from falling", "tail": 0.6, "lines": [
+ {"id": 1, "shot": "hook", "text": "This is why an elevator almost never falls.", "pre": 0.0},
+ {"id": 2, "shot": "shaft", "text": "First, a shaft with guide rails running all the way up.", "pre": 0.2},
+ {"id": 3, "shot": "car", "text": "The car rides on those rails, so it can't sway.", "pre": 0.2},
+ {"id": 4, "shot": "ropes", "text": "It hangs from several steel ropes, and one can hold the car by itself.", "pre": 0.2},
+ {"id": 5, "shot": "machine", "text": "Up top, a motor turns a grooved wheel.", "pre": 0.2},
+ {"id": 6, "shot": "counter", "text": "A counterweight balances the car, about as heavy as the car forty percent full."},
+ {"id": 7, "shot": "brake", "text": "If the power goes out, springs clamp the motor's brake shut.", "pre": 0.2},
+ {"id": 8, "shot": "governor", "text": "Next is the governor, spun by its own rope as the car moves.", "pre": 0.2},
+ {"id": 9, "shot": "governor", "text": "If the car goes too fast, the governor grabs that rope."},
+ {"id": 10, "shot": "safeties", "text": "That pulls steel wedges under the car tight against the rails."},
+ {"id": 11, "shot": "buffer", "text": "At the bottom of the pit, buffers act like giant shock absorbers.", "pre": 0.2},
+ {"id": 12, "shot": "otis", "text": "In eighteen fifty four, Elisha Otis stood on his safety elevator and had the ropes cut.", "pre": 0.3},
+ {"id": 13, "shot": "otis", "text": "It didn't fall."},
+ {"id": 14, "shot": "otis", "text": "Would you ride one after the cable snapped?", "pre": 0.3}
+]}
