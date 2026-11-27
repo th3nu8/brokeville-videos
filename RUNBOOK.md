@@ -7,7 +7,7 @@ Follow this top to bottom to make **one new explainer Short** and schedule it on
 ## The format
 
 - **Channels:** YouTube + TikTok, both connected through Metricool (brand/blogId **8340054**, timezone America/Chicago). Brokeville now posts explainers only.
-- **What:** 45–60 s 3D **cutaway explainers**: "How a nuclear bunker is built", "What's inside a submarine", "How a skyscraper survives an earthquake", "How a tunnel is dug under the ocean", "What's inside a volcano", "How a dam holds back a lake", "How an elevator stops from falling", "How a space toilet works", "What's under a city street", "How a cruise ship floats", and so on.
+- **What:** **62–68 s** 3D **cutaway explainers** (TikTok Creator Rewards only pays on videos of at least 1 minute, so every video must be over 1:00): "How a nuclear bunker is built", "What's inside a submarine", "How a skyscraper survives an earthquake", "How a tunnel is dug under the ocean", "What's inside a volcano", "How a dam holds back a lake", "How an elevator stops from falling", "How a space toilet works", "What's under a city street", "How a cruise ship floats", and so on.
 - **Style:** ONLY the smooth diorama style of `episodes/E001-nuclear-bunker/`. Do not use the blocky voxel style (E003 was a rejected experiment). The look is a diorama cutaway (a slice of the world, with the cut face toward the camera). The thing gets built or revealed step by step, in sync with the words. Labels with leader lines track objects. There's a 2-line title for the first 4 s, word-by-word captions, a calm adult narrator and soft music.
 - **Voice:** `af_heart` at speed 1.0, pitch 1.0 (most natural free voice; whole passages read together). Keep the same voice on every video.
 - **Audience:** NOT made for kids. Everything is family-friendly. **Never** make how-to content for weapons, explosives, drugs, hacking or anything dangerous. Explain how things are built and how they work, not how to cause harm. No graphic medical gore.
@@ -34,7 +34,7 @@ Run at least 3 web searches, plus fetches where needed, from reputable sources: 
 {"title": "How X works", "tail": 0.6, "lines": [{"id": 1, "shot": "hook", "text": "...", "pre": 0.0}, ...]}
 ```
 
-- 11–14 lines and **125–150 words**. Each line's `shot` names its step. Use 9–12 different shots.
+- 13–16 lines and **165–185 words**. Each line's `shot` names its step. Use 10–13 different shots. Set `"tail": 1.2` in script.json.
 - **Line 1** is the hook and plays over the finished thing ("This is how you build a bunker that can survive a nuclear war."). **The last line** is a viewer question ("Would you last a month down here?").
 - Write numbers as words. Add `"pre": 0.2` before new steps.
 
@@ -43,7 +43,7 @@ export EP=~/bv/episodes/E<NNN>-slug
 python3 ~/bv/pipeline/voice.py af_heart 1.0 1.0   # natural mode: passages read together, room polish
 ```
 
-The total must be **42–59 s**. If it's over, cut words. If it's under, add a fact line.
+The voice total must be **61–66 s** (so the final video is 62–68 s). If it's over, cut words. If it's under, add a fact line. Never pad with silence or slow the voice down.
 
 ## 4. Scene → `scene.py`, `fx.py`
 
@@ -73,9 +73,9 @@ Fix these before going on:
 
 ```bash
 cd $EP && nohup python3 ~/bv/pipeline/render.py 2 4 > $EP/render.log 2>&1 &
-# poll: sleep 590; ls $EP/render | wc -l ; cat $EP/render.log   (until "ALLDONE ... missing 0", ~1 h for 60 s)
+# poll: sleep 590; ls $EP/render | wc -l ; cat $EP/render.log   (until "ALLDONE ... missing 0", ~1–1.3 h for 65 s)
 python3 ~/bv/pipeline/audio.py && python3 ~/bv/pipeline/compose.py
-ffprobe -v error -show_entries format=duration -of csv=p=0 $EP/final.mp4   # 45–60
+ffprobe -v error -show_entries format=duration -of csv=p=0 $EP/final.mp4   # must be 62–68 (never under 61.5)
 ```
 
 Extract 8–10 frames across `final.mp4` and look at them. Check labels, the title, captions and the ending.
@@ -103,4 +103,4 @@ If Metricool refuses (for example the free plan's 20-posts-per-month limit), sti
 
 Add a row to the **Explainers** table in `episodes.md` (E number, date, title, topic category, video path, Metricool post id). Then commit, pull with rebase, and push. Finish with a short message to the owner: the title, the post time and the Metricool planner link.
 
-**Never post a broken video, one under 45 s or over 60 s, or one with facts you couldn't source.** If something fails that you can't fix, stop and report what happened.
+**Never post a broken video, one under 61.5 s or over 70 s, or one with facts you couldn't source.** If something fails that you can't fix, stop and report what happened.
