@@ -1,0 +1,11 @@
+# Facts used (E004 Hoover Dam)
+- Four diversion tunnels, two through each canyon wall, were dug to send the Colorado River around the construction site (about 56 ft excavated diameter, lined with 3 ft of concrete). https://www.usbr.gov/lc/hooverdam/History/essays/tunnels.html
+- In November 1932 the river was forced into the tunnels; cofferdams (about 1,000,000 cubic yards of earth and rock fill) kept the site dry. https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html
+- A grout curtain is a row of drilled holes filled with pressurized grout that protects a dam's foundation from seepage. https://en.wikipedia.org/wiki/Grout_curtain
+- Concrete was placed in vertical blocks (about 215 of them) rising in five-foot lifts. https://www.usbr.gov/lc/hooverdam/History/essays/concrete.html
+- Engineers calculated a single continuous pour would have taken about 125 years to cool, and the stresses would have cracked the dam; so cooling pipes carried river water, then chilled water, through each block (more than 582 miles of 1-inch pipe). https://www.usbr.gov/lc/hooverdam/History/essays/concrete.html , https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html
+- The dam is about 660 ft thick at the base and 45 ft at the top; water pressure increases with depth. https://user.engineering.uiowa.edu/~fluids/Posting/Video_Gallery/video_ch02/v2_3.html
+- Hoover is an arch-gravity dam: the water load is carried by both gravity (its weight) and horizontal arch action; gravity dams resist water thrust by their own weight. https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html , https://britannica.com/technology/gravity-dam
+- Four intake towers feed water through penstocks to the powerplant, which has 17 main turbines. https://www.usbr.gov/lc/hooverdam/faqs/tunlfaqs.html , https://www.usbr.gov/lc/hooverdam/faqs/powerfaq.html
+- Two spillways, one on each canyon wall, carry floodwater around the dam into the outer tunnels. https://www.usbr.gov/lc/hooverdam/faqs/tunlfaqs.html
+- In February 1935 the last tunnel was closed and the reservoir began filling; Lake Mead extends about 110 miles upstream. https://www.usbr.gov/lc/hooverdam/History/essays/tunnels.html , https://www.usbr.gov/lc/hooverdam/faqs/lakefaqs.html

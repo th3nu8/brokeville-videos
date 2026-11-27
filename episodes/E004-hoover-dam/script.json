@@ -1,0 +1,84 @@
+{
+ "title": "How the Hoover Dam was built",
+ "tail": 0.6,
+ "lines": [
+  {
+   "id": 1,
+   "shot": "hook",
+   "text": "This is how they built the Hoover Dam, a wall holding back an entire lake.",
+   "pre": 0
+  },
+  {
+   "id": 2,
+   "shot": "tunnels",
+   "text": "First, crews dug four giant tunnels through the canyon walls.",
+   "pre": 0.2
+  },
+  {
+   "id": 3,
+   "shot": "divert",
+   "text": "The river was pushed into them, leaving the riverbed dry.",
+   "pre": 0.2
+  },
+  {
+   "id": 4,
+   "shot": "grout",
+   "text": "Holes drilled in the bedrock were filled with grout, to stop water sneaking underneath.",
+   "pre": 0.2
+  },
+  {
+   "id": 5,
+   "shot": "blocks",
+   "text": "Then concrete rose as over two hundred blocks, five feet at a time.",
+   "pre": 0.2
+  },
+  {
+   "id": 6,
+   "shot": "cool",
+   "text": "Poured at once, it would have taken about a hundred twenty five years to cool.",
+   "pre": 0.2
+  },
+  {
+   "id": 7,
+   "shot": "cool",
+   "text": "So cold water ran through hundreds of miles of pipe inside.",
+   "pre": 0
+  },
+  {
+   "id": 8,
+   "shot": "lake",
+   "text": "Next, the tunnels closed, and Lake Mead filled up.",
+   "pre": 0.2
+  },
+  {
+   "id": 9,
+   "shot": "shape",
+   "text": "It's six hundred sixty feet thick at the base, because water pressure grows with depth.",
+   "pre": 0.2
+  },
+  {
+   "id": 10,
+   "shot": "arch",
+   "text": "Its weight and curved arch shape hold the lake back.",
+   "pre": 0.2
+  },
+  {
+   "id": 11,
+   "shot": "power",
+   "text": "Towers feed water down to seventeen turbines that make electricity.",
+   "pre": 0.2
+  },
+  {
+   "id": 12,
+   "shot": "spill",
+   "text": "Spillways let floods escape around the sides.",
+   "pre": 0.2
+  },
+  {
+   "id": 13,
+   "shot": "ask",
+   "text": "Would you trust a wall holding back a lake?",
+   "pre": 0.3
+  }
+ ]
+}
