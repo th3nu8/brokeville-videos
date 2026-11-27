@@ -6,7 +6,7 @@ Follow this top to bottom to make **one new explainer Short** and schedule it on
 
 ## The format
 
-- **Channel:** connected through Metricool (brand/blogId **8340054**, timezone America/Chicago). Brokeville now posts explainers only.
+- **Channels:** YouTube + TikTok, both connected through Metricool (brand/blogId **8340054**, timezone America/Chicago). Brokeville now posts explainers only.
 - **What:** 45–60 s 3D **cutaway explainers**: "How a nuclear bunker is built", "What's inside a submarine", "How a skyscraper survives an earthquake", "How a tunnel is dug under the ocean", "What's inside a volcano", "How a dam holds back a lake", "How an elevator stops from falling", "How a space toilet works", "What's under a city street", "How a cruise ship floats", and so on.
 - **Style:** ONLY the smooth diorama style of `episodes/E001-nuclear-bunker/`. Do not use the blocky voxel style (E003 was a rejected experiment). The look is a diorama cutaway (a slice of the world, with the cut face toward the camera). The thing gets built or revealed step by step, in sync with the words. Labels with leader lines track objects. There's a 2-line title for the first 4 s, word-by-word captions, a calm adult narrator and soft music.
 - **Voice:** `af_heart` at speed 1.0, pitch 1.0 (most natural free voice; whole passages read together). Keep the same voice on every video.
@@ -92,9 +92,10 @@ curl -sI https://raw.githubusercontent.com/th3nu8/brokeville-videos/main/videos/
 Then call Metricool `createScheduledPost` with blogId `8340054`:
 - **date:** today **17:00 America/Chicago**. If that's already past, use now + 15 minutes.
 - **media:** the raw.githubusercontent URL.
-- **providers:** `[{"network":"youtube"}]`.
+- **providers:** `[{"network":"youtube"}, {"network":"tiktok"}]` (one post goes to both; TikTok account "Brokeville Animation").
 - **text:** 1–2 sentence hook, plus the viewer question, plus `#shorts #howitsmade #engineering #science #explained` (adjust the hashtags to the topic).
 - **youtubeData:** `{"title": "<How X works / is built> 🤯 #shorts (≤100 chars)", "type": "short", "privacy": "public", "madeForKids": false, "category": "EDUCATION", "isAiGeneratedContent": false, "tags": [...]}`.
+- **tiktokData:** `{"privacyOption": "PUBLIC_TO_EVERYONE", "title": "<same title without #shorts>", "disableComment": false, "disableDuet": false, "disableStitch": false, "autoAddMusic": false, "isAigc": true, "commercialContentThirdParty": false, "commercialContentOwnBrand": false}`. `isAigc` is true because the narration is a synthetic voice.
 
 If Metricool refuses (for example the free plan's 20-posts-per-month limit), still push the video and report the exact error.
 
