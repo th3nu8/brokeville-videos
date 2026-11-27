@@ -13,3 +13,4 @@
 | E001 | 2026-11-26 | How a nuclear bunker is built | shelters / civil engineering | (example, made in chat; not posted yet) | — |
 | E002 | 2026-11-26 | How an elevator stops itself from falling | machines / building systems | videos/E002-elevator-safety.mp4 | 443514943 (17:00 America/Chicago) |
 | E003 | 2026-11-26 | How a nuclear power plant works (built from blocks) | energy / voxel style — REJECTED style, do not reuse | (example only, not posted) | — |
+| E004 | 2026-11-27 | How the Hoover Dam was built | dams / civil engineering | videos/E004-hoover-dam.mp4 | 444905069 (17:00 America/Chicago) |
